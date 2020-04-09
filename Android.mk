@@ -24,6 +24,9 @@ LOCAL_SRC_FILES := \
     FmRadioController_slsi.cpp \
     libfm_jni.cpp
 
+LOCAL_HEADER_LIBRARIES := \
+    jni_headers
+
 LOCAL_SHARED_LIBRARIES := \
     libcutils \
     liblog
