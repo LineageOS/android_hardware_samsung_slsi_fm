@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92f58fc8_c00379b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2025-02-07T21:05:25Z",
+      "side": 1,
+      "message": "With this topic and feb 02 asb, fm radio works on troika and doesn\u0027t break gts4lvwifi.",
+      "revId": "612c897600cc27b80cc86e1f2d9099936d16d907",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
