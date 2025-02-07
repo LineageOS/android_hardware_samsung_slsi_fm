@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2020 The LineageOS Project
+// Copyright (C) 2020-2025 The LineageOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,21 +14,15 @@
 // limitations under the License.
 //
 
-soong_namespace {
-}
-
-cc_library_shared {
-    name: "libfmjni",
-
+filegroup {
+    name: "libfmjni-slsi-srcs",
     srcs: [
         "FmRadioController_slsi.cpp",
         "libfm_jni.cpp",
     ],
+}
 
-    header_libs: ["jni_headers"],
-
-    shared_libs: [
-        "libcutils",
-        "liblog",
-    ],
+cc_library_headers {
+    name: "libfmjni-slsi-headers",
+    export_include_dirs: ["."],
 }
